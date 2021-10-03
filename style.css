@@ -1,0 +1,70 @@
+* {
+	font-family:"Roboto", sans-serif;
+}
+/*4 part: 
+selector{ 
+	css-attribute1: value;
+	css-attribute2: value;
+	css-attribute3: value;
+	
+}
+trong vi du tren, sans-serif la backup font
+trong truong hop font Roboto lay tu Google
+bi hong, sans serif la default font
+
+*/
+h1, h2{
+	font-family: "Montserrat", sans-serif
+}
+
+img{
+	height: 300px;
+	width: 500px;
+}
+
+.red-text {
+	color: red;
+}
+
+#landing {
+	height: 80vh;
+/*vh = viewport height = screen height*/
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+
+#gallery {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 75vh;	
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+
+}
+
+h2 {
+	color: #007bff;
+}
+
+.tools {
+	padding: 25px;
+	height: 200px;
+	border: 5px solid #f2f2f2;
+	margin: 20px;
+	width: 75%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
